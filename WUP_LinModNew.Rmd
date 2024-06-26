@@ -49,6 +49,12 @@ This plot shows that as your arm gets stronger, the simulation goes higher.
 ### Numerical results
 
 
+```{r}
+cor(SIMS~ARM,data=data)
+```
+This correlation shows that it is positive. 
+
+
 ### Inferential  (Build model.1)
 
 #### Predict at target point
