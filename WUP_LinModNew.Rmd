@@ -90,7 +90,14 @@ The SIMS  prediction for ARM=88 is 0.7, the prediction interval is (-1.73, 3.14)
 
 ## Model 2 SIM~GRIP
 
-### Now add in scatterplot
+### descriptive results -- scatterplot
+
+
+```{r}
+plot(SIMS~GRIP,data=data)
+```
+
+This plot shows a steady flow of SIMS and GRIP goes higher
 
 
 ### Numerical results 
