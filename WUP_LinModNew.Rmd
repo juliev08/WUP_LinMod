@@ -102,6 +102,12 @@ This plot shows a steady flow of SIMS and GRIP goes higher
 
 ### Numerical results 
 
+```{r}
+cor(SIMS~GRIP,data=data)
+```
+
+This correlation shows that it is positive.
+
 
 ### Inferential  (Build model.2)
   
